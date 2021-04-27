@@ -11,6 +11,7 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <title>Joe's Restaurant</title>
     <!-- CSS Styling -->
     <style>
@@ -124,28 +125,27 @@
       }
     
       p {
-        font-family: Larsseit, sans-serif;
-        color: #003349;
+        font-family: 'Montserrat', sans-serif;
+        color: #023347;
         font-size: 12px;
-        padding: 10px;
-        font-weight: 100;
+        padding: 11px;
+        font-weight: 1000;
         text-align: justify;
         margin: 0;
-        font-style: oblique;
+        font-style: italic;
       }
       ul {
         text-align: justify;
         text-align: left;
       }
       li {
-        color: rgb(232, 131, 106);
-
-        font-family: Larsseit, sans-serif;
+        color: rgb(235, 72, 32);
+        font-family: 'New Tegomin', serif;
         list-style: none;
         font-size: 13px;
         font-weight: bold;
         text-align: left;
-        font-style: italic;
+        font-style: oblique; 
         padding: 7px;
       }
       nav {
@@ -173,6 +173,17 @@
         left: 0;
         top: 50%;
       }
+        .line::after {
+        content: "";
+        display: block;
+        width: 220px;
+        height: 1px;
+        background: #003349;
+        position: absolute;
+        right: 0;
+        top: 50%;
+      }
+      
       .container {
         max-width: 80%;
       }
@@ -181,8 +192,38 @@
       }
       .apis{
         text-decoration: underline;
+        color: #003349;
+
       }
+      .bar{
+      color: #003349;
+
+      }
+      .cocktails{
+                  color: #003349;
+
+      }
+    .salads{
+                color: #003349;
+
+    }  
+    .cream{
+                color: #003349;
+
+    }
+    .drum{
+      color:  #E65239;
+    }
  
+    .coktail{
+        color:#00ABF4;
+    }
+    .bday{
+       color:#F662D1 ;
+    }
+    .spa{
+        color: #A1AE25;
+    }
       /* PART 2 CSS*/
     </style>
     <!-- END OF CSS -->
@@ -345,15 +386,15 @@
           </li>
           <hr />
           <h7 class="deals"><stro>DEALS</stro></h7>
-          <li class="salads">
-            <i class="fas fa-spa"></i> Monday<span class="price"> $3 </span> off vegetarian salads and mains
+          <li class="salads"><span class="spa">
+            <i class="fas fa-spa"></i></span> Monday<span class="price"> $3 </span> off vegetarian salads and mains
           </li>
           <li class="bar"><i class="fas fa-beer"></i>
             </i>Tuesday<span class="price"> $2</span> off bar rail
           </li>
-          <li class="apis"><i class="fas fa-drumstick-bite"></i> Wednesday half-priced appetizers after 9pm</li>
-          <li class="cocktails"><i class="fas fa-cocktail"></i>Thursday<span class="price"> $2 </span>off cocktails</li>
-          <li class="cream"><i class="fas fa-birthday-cake"></i> Friday one free dessert with the purchase 2 mains
+          <li class="apis"><span class="drum"><i class="fas fa-drumstick-bite"></i></span>  Wednesday half-priced appetizers after 9pm</li>
+          <li class="cocktails"><span class="coktail"><i class="fas fa-cocktail"></i></span> class="price"> $2 </span>off cocktails</li>
+          <li class="cream"><span class="bday"><i class="fas fa-birthday-cake"></i></span> Friday one free dessert with the purchase 2 mains
           </li>
         </ul>
       </div>
