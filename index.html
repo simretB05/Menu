@@ -10,7 +10,11 @@
       href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
-    />
+    /><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <title>Joe's Restaurant</title>
     <!-- CSS Styling -->
@@ -109,19 +113,21 @@
         z-index: 1;
       }
       h7 {
-              color: rgb(228, 71, 32);
-
+        color: #003349;
         text-align: center;
         display: block;
         margin: 0 auto;
         font-weight: 900;
-        background: lightgray;
-        width: 100px;
+        background: rgb(95, 94, 95);
+        width: 150px;
         padding: 6px;
         border: 8px solid #003349;
         font-size: 20px;
-        border-radius: 20px;
-      
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(20, 19, 19, 0.6);
+
+
+font-family: 'Noto Sans JP', sans-serif;
       }
     
       p {
@@ -141,6 +147,7 @@
       li {
         color: #003349;
         font-family: 'New Tegomin', serif;
+        
         list-style: none;
         font-size: 13px;
         font-weight: bold;
@@ -190,27 +197,16 @@
       .highlight {
         color: rgb(232, 131, 106);
       }
-      .apis{
-        text-decoration: underline;
-        color: #003349;
-
-      }
-      .bar{
+      .apis,.bar,.cocktails,.salads,.cream {
       color: #003349;
-
+    font-family: 'Montserrat', sans-serif;
+      font-weight:1000;
       }
-      .cocktails{
-                  color: #003349;
-
-      }
-    .salads{
-                color: #003349;
-
-    }  
-    .cream{
-                color: #003349;
-
+    .cocktails{
+        text-decoration: underline rgb(29, 56, 2);
+        
     }
+    
     .drum{
       color:  #E65239;
     }
@@ -224,6 +220,27 @@
     .spa{
         color: #A1AE25;
     }
+    .star{
+        font-size: 11px;
+        position: relative;
+        color: #DCDCDC;
+
+        
+    }
+    .price{
+             color:  #003349;
+             font-weight: bolder;
+         font-family: 'Antonio', sans-serif;
+
+    }
+    .white{
+        color:#DCDCDC ;
+    }
+    .price2{
+        font-size: 15.7px;
+        font-family: 'Antonio', sans-serif;
+    }
+    
       /* PART 2 CSS*/
     </style>
     <!-- END OF CSS -->
@@ -291,101 +308,101 @@
           <h3>APPETIZERS</h3>
 
           <li>
-            <strong> Cranberry Brie Bread</strong><span class="line2">$18.00</span>
+            <strong> Cranberry Brie Bread</strong><span class="price2">$18.00</span>
             <p>
               Gooey brie topped with sweet cranberries on a crusty loaf of
               sourdough
             </p>
           </li>
           <li>
-            <strong> Korean Beef Lettuce Wraps</strong>
+            <strong> Korean Beef Lettuce Wraps</strong><span class="price2"> $14.00</span>
 
             <p>
               Bulgogi beef wrapped in little lettuce packages with homemade
-              pickled onions and radishes, topped with miso mayo price: $14.00
+              pickled onions and radishes, topped with miso mayo 
             </p>
           </li>
           <li>
-            <strong>Spinach-Stuffed Mushrooms</strong>
+            <strong>Spinach-Stuffed Mushrooms</strong><span class="price2"> $12.00</span>
 
             <p>
               Creamy, garlicky, spinach stuffed mushrooms topped with bubbling
-              parmesan cheese price: $12.00
+              parmesan cheese
             </p>
           </li>
           <h4>MAINS</h4>
           <li>
-            <strong>Spinach Apple and Onion Pork Chops</strong>
+            <strong>Spinach Apple and Onion Pork Chops</strong><span class="price2"> $24.00</span>
             <p>
               Hearty fall flavours served with brussels sprouts with toasted
-              hazelnut butter and an in house made french roll price: $24.00
+              hazelnut butter and an in house made french roll 
             </p>
           </li>
 
           <li>
-            <strong>SpinachGrilled Moroccan Chicken</strong>
+            <strong>SpinachGrilled Moroccan Chicken</strong><span class="price2"> $26.00</span>
             <p>
               Fragrant chicken cooked with garlic, lemon, and pomegranate
               molasses served with roasted turmeric cauliflower topped with
-              creamy yogurt price: $26.00
+              creamy yogurt
             </p>
           </li>
           <li>
-            <strong>SpinachGrilled Lobster Tails with</strong>
+            <strong>SpinachGrilled Lobster Tails with</strong><span class="price2"> $32.00</span>
             <p>
               Fresh and tender lobster tails seasoned with coriander and topped
-              with warm chilli butter sauce price: $32.00
+              with warm chilli butter sauce
             </p>
           </li>
           <li>
-            <strong>Spinach Dried Tomato Florentine Pasta</strong>
+            <strong>Spinach Dried Tomato Florentine Pasta</strong><span class="price2"> $22.00</span>
             <p>
               Spicy pasta cooked in a sun dried tomato cream sauce topped with
-              spinach and mozzarella price: $22.00
+              spinach and mozzarella 
             </p>
           </li>
 
           <h5 class="line">SALADS</h5>
           <li>
-            <strong>Broccoli and Apple Salad with Chicken</strong>
+            <strong>Broccoli and Apple Salad with Chicken</strong><span class="price2"> $18.00</span>
             <p>
               Charred broccoli, sweet fuji apples, feta cheese and warm grilled
-              Chicken breast served on a bed of mixed greens price: $18.00
+              Chicken breast served on a bed of mixed greens
             </p>
           </li>
           <li>
-            <strong>Persimmon, Pomegranate, and Kale Salad</strong>
+            <strong>Persimmon, Pomegranate, and Kale Salad</strong><span class="price2"> $14.00</span>
             <p>
               Seasoned kale salad served with a delicious tangy citrus dressing
-              price: $14.00
+              
             </p>
           </li>
           <li>
-            <strong> Peach, Sweet Corn and Halloumi Salad </strong>
+            <strong> Peach, Sweet Corn and Halloumi Salad </strong><span class="price2"> $22.00</span>
             <p>
               Sweet corn and juicy peaches served with salty halloumi cheese on
-              arugula price: $22.00
+              arugula 
             </p>
           </li>
 
           <h6>DESSERTS</h6>
 
           <li>
-            <strong> Salted Caramel White Chocolate Brownies</strong>
+            <strong> Salted Caramel White Chocolate Brownies</strong><span class="price2"> $12.00</span>
             <p>
               Decadent gooey white chocolate brownies layered with in house made
-              caramel price: $12 name:
+              caramel
             </p>
           </li>
           <li>
-            <strong> Cinnamon Sugar Pretzel Bites </strong>
+            <strong> Cinnamon Sugar Pretzel Bites </strong><span class="price2"> $8.00</span>
             <p>
               Warm fried dough covered in cinnamon sugar served with chocolate
-              sauce for dipping price: $8
+              sauce for dipping 
             </p>
           </li>
           <hr />
-          <h7 class="deals"><stro>DEALS</stro></h7>
+          <h7 class="deals"><stro><span class="star"><i class="fas fa-star"></i></span></i><span class="spa"> D</span><span class="white">E</span></span><span class="fa-coktail"><span class="drum">A</span></span><span class="coktail">L</span><span class="bday">S</span><span class="star"> <i class="fas fa-star"></i></span></h7>
           <li class="salads"><span class="spa">
             <i class="fas fa-spa"></i></span> Monday<span class="price"> $3 </span> off vegetarian salads and mains
           </li>
@@ -393,7 +410,7 @@
             </i>Tuesday<span class="price"> $2</span> off bar rail
           </li>
           <li class="apis"><span class="drum"><i class="fas fa-drumstick-bite"></i></span>  Wednesday half-priced appetizers after 9pm</li>
-          <li class="cocktails"><span class="coktail"><i class="fas fa-cocktail"></i></span> class="price"> $2 </span>off cocktails</li>
+          <li class="cocktails"><span class="coktail"><i class="fas fa-cocktail"></i></span> Thursday <span class="price">$2 </span>off cocktails </li>
           <li class="cream"><span class="bday"><i class="fas fa-birthday-cake"></i></span> Friday one free dessert with the purchase 2 mains
           </li>
         </ul>
