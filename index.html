@@ -50,6 +50,7 @@
         position: absolute;
         left: 0;
         top: 50%;
+        z-index: 1;
       }
       h3:after {
         content: "";
@@ -60,6 +61,7 @@
         position: absolute;
         right: 0;
         top: 50%;
+        z-index: 1;
       }
       h4:before {
         content: "";
@@ -70,6 +72,7 @@
         position: absolute;
         left: 0;
         top: 50%;
+        z-index: 1;
       }
       h4:after {
         content: "";
@@ -80,6 +83,7 @@
         position: absolute;
         right: 0;
         top: 50%;
+        z-index: 1;
       }
       h6:before {
         content: "";
@@ -90,6 +94,7 @@
         position: absolute;
         left: 0;
         top: 50%;
+        z-index: 1;
       }
       h6:after {
         content: "";
@@ -100,6 +105,7 @@
         position: absolute;
         right: 0;
         top: 50%;
+        z-index: 1;
       }
       h7 {
               color: rgb(228, 71, 32);
@@ -136,7 +142,7 @@
         font-family: Larsseit, sans-serif;
         list-style: none;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 700;
         text-align: left;
         font-style: italic;
         padding: 7px;
@@ -164,16 +170,6 @@
         background: #003349;
         position: absolute;
         left: 0;
-        top: 50%;
-      }
-      .line::after {
-        content: "";
-        display: block;
-        width: 220px;
-        height: 1px;
-        background: #003349;
-        position: absolute;
-        right: 0;
         top: 50%;
       }
       .container {
@@ -253,7 +249,7 @@
           <h3>APPETIZERS</h3>
 
           <li>
-            <strong> Cranberry Brie Bread</strong> <strong class="price2">$18.00</strong>
+            <strong> Cranberry Brie Bread</strong><span class="line2">$18.00</span>
             <p>
               Gooey brie topped with sweet cranberries on a crusty loaf of
               sourdough
